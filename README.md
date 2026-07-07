@@ -10,7 +10,7 @@ This repository contains the architecture, configuration scripts, and documentat
 The following diagram illustrates the logical architecture of the replication flow. Change data capture (CDC) events are read continuously from the PostgreSQL replication slot and processed by Datastream, which scales serverlessly to ingest, transform, and write data into Google BigQuery.
 
 <p align="center">
-  <img src="images/datastream-stream-running.png" alt="Google Cloud Datastream Replication Flow Topology" width="800">
+  <img src="images/illustration.png" alt="Google Cloud Datastream Replication Flow Topology" width="800">
 </p>
 
 ```
