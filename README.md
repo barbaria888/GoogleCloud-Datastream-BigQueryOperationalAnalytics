@@ -1,4 +1,8 @@
-# Google Cloud Datastream: PostgreSQL Replication to BigQuery
+<div align="center">
+  
+# Google Cloud Datastream: PostgreSQL Replication to BigQuery <p><img src="https://github.com/barbaria888/GoogleCloud-Datastream-BigQueryOperationalAnalytics/blob/main/images/Cloud%20SQL.png" height="70"><img src="https://github.com/barbaria888/GoogleCloud-Datastream-BigQueryOperationalAnalytics/blob/main/images/Datastream.png" height="70"><img src="https://github.com/barbaria888/GCP-Serverless-Data-Warehouse-BQ-/blob/main/images/BigQuery.png" height="70"></p>
+
+</div>
 
 ## Executive Summary
 This repository contains the architecture, configuration scripts, and documentation for establishing a real-time, serverless change data capture (CDC) replication pipeline from an operational Cloud SQL for PostgreSQL database to Google BigQuery using Google Cloud Datastream. This pipeline ensures sub-second replication latency for transactional data, enabling continuous analytics and real-time business intelligence without degrading production database performance.
